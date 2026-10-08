@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KFMOVIE — Movie Details</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="header details-header">
+
+        <div class="container">
+
+            <a href="../index.html" class="logo">
+                KF<span>MOVIE</span>
+            </a>
+
+            <nav class="navbar">
+
+                <a href="../index.html">
+                    Home
+                </a>
+
+                <a href="../index.html#movies">
+                    Movies
+                </a>
+
+                <a href="./trending.html">
+                    Trending
+                </a>
+
+                <a href="./genres.html">
+                    Genres
+                </a>
+
+                <a href="./favorites.html">
+                    Favorites
+                </a>
+
+            </nav>
+
+            <div class="header-actions">
+
+
+                <div class="auth-nav" id="authNav">
+                    <a href="./login.html" class="login-btn">
+                        Login
+                    </a>
+                </div>
+
+
+            </div>
+
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="movie-details">
+
+            <div class="details-background" id="detailsBackground"></div>
+
+
+            <div class="container details-container">
+
+                <div class="details-poster">
+
+                    <img id="moviePoster" src="../assets/images/movie-1.jpg" alt="Movie">
+
+                </div>
+
+
+                <div class="details-info">
+
+                    <span class="section-label">
+                        MOVIE DETAILS
+                    </span>
+
+                    <h1 id="movieTitle">
+                        Shadow Force
+                    </h1>
+
+
+                    <div class="details-meta">
+
+                        <span id="movieYear">
+                            2026
+                        </span>
+
+                        <span>•</span>
+
+                        <span id="movieGenre">
+                            Action
+                        </span>
+
+                        <span>•</span>
+
+                        <span id="movieDuration">
+                            2h 18min
+                        </span>
+
+                        <span class="details-rating" id="movieRating">
+                            ★ 8.8
+                        </span>
+
+                    </div>
+
+
+                    <p class="details-description" id="movieDescription">
+                        An elite fighter enters a dangerous mission
+                        where survival depends on strength, strategy,
+                        and courage.
+                    </p>
+
+
+                    <div class="details-genres" id="movieGenres"></div>
+
+
+                    <div class="details-buttons">
+
+                        <button class="watch-modal-btn" id="watchMovie">
+                            ▶ Watch Now
+                        </button>
+
+                        <button class="favorite-btn" id="favoriteBtn">
+                            ♡ Add to Favorites
+                        </button>
+
+                    </div>
+
+
+                    <div class="movie-extra">
+
+                        <div>
+                            <span>Director</span>
+                            <strong id="movieDirector">
+                                Alex Morgan
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span>Language</span>
+                            <strong id="movieLanguage">
+                                English
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span>Quality</span>
+                            <strong id="movieQuality">
+                                HD
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- VIDEO PLAYER -->
+
+    <div class="watch-player" id="watchPlayer">
+
+        <div class="player-content">
+
+            <button class="close-player" id="closePlayer">
+                ×
+            </button>
+
+            <video id="movieVideo" controls></video>
+
+        </div>
+
+    </div>
+
+    <section class="related-movies">
+        <div class="container">
+
+            <div class="section-heading">
+                <span class="section-label">YOU MAY ALSO LIKE</span>
+                <h2>Related Movies</h2>
+            </div>
+
+            <div class="related-grid">
+
+                <article class="movie-card">
+                    <div class="poster">
+                        <img src="../assets/images/movie-2.jpg" alt="Dark Horizon">
+
+                        <span class="movie-rating">★ 9.1</span>
+
+                        <a href="./movie-details.html?movie=Dark%20Horizon" class="play-btn">
+                            ▶
+                        </a>
+                    </div>
+
+                    <h3>Dark Horizon</h3>
+                    <p>Thriller • 2026</p>
+                </article>
+
+
+                <article class="movie-card">
+                    <div class="poster">
+                        <img src="../assets/images/movie-4.jpg" alt="Night Runner">
+
+                        <span class="movie-rating">★ 9.0</span>
+
+                        <a href="./movie-details.html?movie=Night%20Runner" class="play-btn">
+                            ▶
+                        </a>
+                    </div>
+
+                    <h3>Night Runner</h3>
+                    <p>Action • 2026</p>
+                </article>
+
+
+                <article class="movie-card">
+                    <div class="poster">
+                        <img src="../assets/images/movie-6.jpg" alt="Broken Dreams">
+
+                        <span class="movie-rating">★ 8.7</span>
+
+                        <a href="./movie-details.html?movie=Broken%20Dreams" class="play-btn">
+                            ▶
+                        </a>
+                    </div>
+
+                    <h3>Broken Dreams</h3>
+                    <p>Drama • 2026</p>
+                </article>
+
+
+                <article class="movie-card">
+                    <div class="poster">
+                        <img src="../assets/images/movie-5.jpg" alt="Crazy Weekend">
+
+                        <span class="movie-rating">★ 8.2</span>
+
+                        <a href="./movie-details.html?movie=Crazy%20Weekend" class="play-btn">
+                            ▶
+                        </a>
+                    </div>
+
+                    <h3>Crazy Weekend</h3>
+                    <p>Comedy • 2026</p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+<footer class="site-footer">
+
+    <div class="container">
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <a href="../index.html" class="logo">
+                    KF<span>MOVIE</span>
+                </a>
+
+                <p>
+                    Your destination for movies,
+                    entertainment and unforgettable stories.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Navigation</h3>
+
+                <a href="../index.html">Home</a>
+                <a href="./genres.html">Genres</a>
+                <a href="./trending.html">Trending</a>
+                <a href="./favorites.html">Favorites</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Account</h3>
+
+                <a href="./login.html">Login</a>
+                <a href="./signup.html">Create Account</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Follow Us</h3>
+
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">TikTok</a>
+                <a href="#" target="_blank">YouTube</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 KFMOVIE. All rights reserved.
+            </p>
+
+            <p>
+                Made with ❤️ for movie lovers.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+<script src="../js/auth-nav.js"></script>
+    <script src="../js/details.js"></script>
+
+</body>
+
+</html>

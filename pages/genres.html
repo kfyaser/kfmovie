@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KFMOVIE — Genres</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+
+            <a href="../index.html" class="logo">
+                KF<span>MOVIE</span>
+            </a>
+
+            <nav class="navbar">
+                <a href="../index.html">Home</a>
+                <a href="../index.html#movies">Movies</a>
+                <a href="../index.html#trending">Trending</a>
+                <a href="./genres.html" class="active">Genres</a>
+                <a href="./favorites.html">Favorites</a>
+            </nav>
+
+
+            <div class="auth-nav" id="authNav">
+                <a href="./login.html" class="login-btn">
+                    Login
+                </a>
+            </div>
+
+
+
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="genres-page">
+
+            <div class="container">
+
+                <div class="section-header genres-title">
+                    <div>
+                        <span class="section-label">EXPLORE</span>
+                        <h1>Movie Genres</h1>
+                        <p>Discover movies by your favorite genre.</p>
+                    </div>
+                </div>
+
+
+                <div class="genre-buttons large-genres">
+
+                    <button class="genre-btn active" data-genre="all">
+                        All
+                    </button>
+
+                    <button class="genre-btn" data-genre="action">
+                        Action
+                    </button>
+
+                    <button class="genre-btn" data-genre="drama">
+                        Drama
+                    </button>
+
+                    <button class="genre-btn" data-genre="thriller">
+                        Thriller
+                    </button>
+
+                    <button class="genre-btn" data-genre="comedy">
+                        Comedy
+                    </button>
+
+                    <button class="genre-btn" data-genre="horror">
+                        Horror
+                    </button>
+
+                    <button class="genre-btn" data-genre="animation">
+                        Animation
+                    </button>
+
+                </div>
+
+
+                <div class="movie-grid genres-grid" id="genresGrid">
+                    <article class="movie-card" data-genre="action">
+
+                        <div class="poster">
+                            <a href="./movie-details.html?movie=Shadow%20Force" class="poster-link">
+                                <img src="../assets/images/movie-1.jpg" alt="Shadow Force">
+                            </a>
+
+                            <span class="movie-rating">★ 8.8</span>
+
+                            <a href="./movie-details.html?movie=Shadow%20Force" class="play-btn">
+                                ▶
+                            </a>
+
+                            <button class="card-favorite" data-title="Shadow Force">♡</button>
+                        </div>
+
+                        <h3>
+                            <a href="./movie-details.html?movie=Shadow%20Force" class="movie-title-link">
+                                Shadow Force
+                            </a>
+                        </h3>
+
+                        <p>Action • 2026</p>
+                    </article>
+
+
+                    <article class="movie-card" data-genre="thriller">
+
+                        <div class="poster">
+                            <a href="./movie-details.html?movie=Dark%20Horizon" class="poster-link">
+                                <img src="../assets/images/movie-2.jpg" alt="Dark Horizon">
+                            </a>
+
+                            <span class="movie-rating">★ 9.1</span>
+
+                            <a href="./movie-details.html?movie=Dark%20Horizon" class="play-btn">
+                                ▶
+                            </a>
+
+                            <button class="card-favorite" data-title="Dark Horizon">♡</button>
+                        </div>
+
+                        <h3>
+                            <a href="./movie-details.html?movie=Dark%20Horizon" class="movie-title-link">
+                                Dark Horizon
+                            </a>
+                        </h3>
+
+                        <p>Thriller • 2026</p>
+                    </article>
+
+
+                    <article class="movie-card" data-genre="drama">
+
+                        <div class="poster">
+                            <a href="./movie-details.html?movie=Red%20Empire" class="poster-link">
+                                <img src="../assets/images/movie-3.png" alt="Red Empire">
+                            </a>
+
+                            <span class="movie-rating">★ 8.6</span>
+
+                            <a href="./movie-details.html?movie=Red%20Empire" class="play-btn">
+                                ▶
+                            </a>
+
+                            <button class="card-favorite" data-title="Red Empire">♡</button>
+                        </div>
+
+                        <h3>
+                            <a href="./movie-details.html?movie=Red%20Empire" class="movie-title-link">
+                                Red Empire
+                            </a>
+                        </h3>
+
+                        <p>Drama • 2026</p>
+                    </article>
+
+
+                    <article class="movie-card" data-genre="action">
+
+                        <div class="poster">
+                            <a href="./movie-details.html?movie=Night%20Runner" class="poster-link">
+                                <img src="../assets/images/movie-4.png" alt="Night Runner">
+                            </a>
+
+                            <span class="movie-rating">★ 9.0</span>
+
+                            <a href="./movie-details.html?movie=Night%20Runner" class="play-btn">
+                                ▶
+                            </a>
+
+                            <button class="card-favorite" data-title="Night Runner">♡</button>
+                        </div>
+
+                        <h3>
+                            <a href="./movie-details.html?movie=Night%20Runner" class="movie-title-link">
+                                Night Runner
+                            </a>
+                        </h3>
+
+                        <p>Action • 2026</p>
+                    </article>
+
+
+                    <article class="movie-card" data-genre="comedy">
+
+                        <div class="poster">
+                            <a href="./movie-details.html?movie=Crazy%20Weekend" class="poster-link">
+                                <img src="../assets/images/movie-5.png" alt="Crazy Weekend">
+                            </a>
+
+                            <span class="movie-rating">★ 8.2</span>
+
+                            <a href="./movie-details.html?movie=Crazy%20Weekend" class="play-btn">
+                                ▶
+                            </a>
+
+                            <button class="card-favorite" data-title="Crazy Weekend">♡</button>
+                        </div>
+
+                        <h3>
+                            <a href="./movie-details.html?movie=Crazy%20Weekend" class="movie-title-link">
+                                Crazy Weekend
+                            </a>
+                        </h3>
+
+                        <p>Comedy • 2026</p>
+                    </article>
+
+
+                    <article class="movie-card" data-genre="drama">
+
+                        <div class="poster">
+                            <a href="./movie-details.html?movie=Broken%20Dreams" class="poster-link">
+                                <img src="../assets/images/movie-6.png" alt="Broken Dreams">
+                            </a>
+
+                            <span class="movie-rating">★ 8.7</span>
+
+                            <a href="./movie-details.html?movie=Broken%20Dreams" class="play-btn">
+                                ▶
+                            </a>
+
+                            <button class="card-favorite" data-title="Broken Dreams">♡</button>
+                        </div>
+
+                        <h3>
+                            <a href="./movie-details.html?movie=Broken%20Dreams" class="movie-title-link">
+                                Broken Dreams
+                            </a>
+                        </h3>
+
+                        <p>Drama • 2026</p>
+                    </article>
+                </div>
+
+
+                <p class="no-results" id="genreNoResults">
+                    No movies found in this genre.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+                <div class="footer-brand">
+
+                    <a href="../index.html" class="logo">
+                        RED<span>MOVIE</span>
+                    </a>
+
+                    <p>
+                        Your destination for movies,
+                        entertainment and unforgettable stories.
+                    </p>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h3>Navigation</h3>
+
+                    <a href="../index.html">Home</a>
+                    <a href="./genres.html">Genres</a>
+                    <a href="./trending.html">Trending</a>
+                    <a href="./favorites.html">Favorites</a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h3>Account</h3>
+
+                    <a href="./login.html">Login</a>
+                    <a href="./signup.html">Create Account</a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h3>Follow Us</h3>
+
+                    <a href="#" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">TikTok</a>
+                    <a href="#" target="_blank">YouTube</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 KFMOVIE. All rights reserved.
+                </p>
+
+                <p>
+                    Made with ❤️ for movie lovers.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="../js/genres.js"></script>
+    <script src="../js/auth-nav.js"></script>
+</body>
+
+</html>
